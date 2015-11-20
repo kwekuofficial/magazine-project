@@ -1,5 +1,19 @@
+@@font-face {
+  font-family: "aquawax";
+  src: url(http://url(http://www.dafont.com/aquawax.font); »
+  aquawax.ttf) format("truetype");
+}
+
 body {
-  background-color: #C8C8C8
+  background-color: #C8C8C8;
+}
+
+.container {
+  border-style: solid;
+}
+
+h6 {
+  font-family: "aquawax", sans-serif;
 }
 
 header {
@@ -7,6 +21,14 @@ header {
   color: white;
   background-color: black;
   border-color: black;
+  padding: 0;
+}
+
+header > img {
+  max-width: 5%;
+  max-height: 5%;
+  float: left;
+  margin-top: 10px;
 }
 
 header > h6 {
@@ -17,4 +39,48 @@ header > h6 {
 hr {
   margin-left: 100px;
   margin-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header.main-content {
+  padding: 0;
+  margin: 0;
+}
+
+.main-content {
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  margin: 30px 0 0 350px;
+  width: 730px;
+  background-color: white;
+}
+
+.main-content > img {
+  margin: 5px 0 0 100px;
+  border-style: solid;
+}
+
+  h2 {
+  background-color: black;
+  font-family: "aquawax", sans-serif;
+  color: white;
+  padding: 5px;
+}
+
+.video-content {
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+  margin: 30px 0 0 350px;
+  width: 730px;
+  background-color: white;
+}
+
+.video-content > img {
+  margin: 5px 0 0 100px;
+  border-style: solid;
 }
